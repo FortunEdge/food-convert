@@ -329,6 +329,7 @@ button.download_but {
     padding-top: 5px;
     padding-bottom: 5px;
     border-radius: 50px;
+    text-decoration: none;
 }
 
 button.download_but:hover {
