@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Food Convert</title>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <div id="body">
+        <div id="app_cont">
+            <div id="top_bar">
+                <button onclick="loadMenu()" class="menu_but"><image src="Images/menu_but.png"></image></button>
+                <div class="title_top">More Info</div>
+                <button onclick="home()" class="home_but"><image src="Images/home_button.png"></image></button>
+            </div>
+            <div id="page_cont">
+                    <button onclick="changePage(nameRec, 'Name')" class="round sideL top">Name Your Recipe</button>
+                    <button onclick="changePage(dirRec, 'Directions')" class="round sideR top">Add Directions</button>
+                    <button onclick="changePage(servRec, 'People Served')" class="round sideL">Add Amount Served</button>
+                    <button onclick="changePage(madeRec, 'Pieces Made')" class="round sideR">Add Amount Made</button>
+                    <button onclick="changePage(recipeOV, 'Your Recipe')" class="round">Finish</button>
+                    <div class="bottom_spacer"></div>
+                <ul id="opt_but_cont">
+                    <li class="opt_but one"><button onclick="changePage(TempDir, 'Temperatures')"><image class="opt_but" src="Images/Left.png"></image></button></li>
+                    <li class="opt_but two hide"><button></button></li>
+                    <li class="opt_but three hide"><button></button></li>
+                </ul>
+            </div>
+        </div>
+        </div>
+        <script type="Text/Javascript" src="jquery-3.2.1.js"></script>
+        <script type="Text/Javascript" src="pages.js"></script>
+        <script type="Text/Javascript" src="main.js"></script>
+    </body>
+</html>
