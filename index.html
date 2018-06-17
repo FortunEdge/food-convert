@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Food Convert</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="apple-touch-icon" href="apple-touch-icon-120.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="apple-touch-icon-152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon-180.png">
+        <link rel="apple-touch-icon" sizes="167x167" href="apple-touch-icon-167.png">
+        <meta name="apple-mobile-web-app-capable" content="yes">
+        <meta name="apple-mobile-web-app-status-bar-style" content="black">
+        <meta name="viewport" content="width=device-width, minimum-scale=1"/>
+    </head>
+    <body>
+		<div id="bodyo">
+            <div id="app_conto">
+                <div id="top_baro">
+                    <div class="title_topo">Options</div>
+                    <button onclick="Menu()" class="home_but"><image src="Images/ex.png"></image></button>
+                </div>
+                <div id="page_conto">
+                    <button onclick="changeMenu(aboutapp, 'About')" class="round top">About</button>
+                    <a class="button" href="help.html" target="_blank"><button class="round">Help</button></a>
+                </div>
+            </div>
+        </div>
+        <div id="body" onscroll="e.preventDefault()">
+        <div id="app_cont">
+            <div id="top_bar">
+                <button onclick="Menu(this)" class="menu_but"><image src="Images/menu_but.png"></image></button>
+                <div class="title_top"></div>
+                <button onclick="home()" class="home_but"><image src="Images/home_button.png"></image></button>
+            </div>
+            <div id="page_cont">
+                <image id="splash" src="Images/splash.png"></image>
+            </div>
+        </div>
+        </div>
+        <script type="Text/Javascript" src="jquery-3.2.1.js"></script>
+        <script type="Text/Javascript" src="jspdf.min.js"></script>
+        <script type="Text/Javascript" src="pages.js"></script>
+        <script type="Text/Javascript" src="main.js"></script>
+    </body>
+</html>
