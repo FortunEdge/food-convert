@@ -319,6 +319,10 @@ button.add_ing:focus {
     transition-duration: 0.5s;
 }
 
+a.download_but {
+    text-decoration: none;
+}
+
 button.download_but {
     width: 60%;
     border: 2px solid white;
